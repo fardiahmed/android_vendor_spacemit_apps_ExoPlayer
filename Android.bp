@@ -1,0 +1,10 @@
+// ExoPlayer 2.19.1 demo app (noDecoderExtensions release), built with Gradle from google/ExoPlayer.
+android_app_import {
+    name: "ExoPlayerDemo",
+    apk: "prebuilt/ExoPlayerDemo.apk",
+    presigned: true,
+    product_specific: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}
